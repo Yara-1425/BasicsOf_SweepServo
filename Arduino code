@@ -35,7 +35,7 @@ void loop() {
         time += 10;                       // waits 15 ms for the servo to reach the position
       }
 
-      if (time > 2000){
+      if (time > 2000){                 // if time reach to 2s
         servo1.write(90);              // tell servo to go to position in variable 'pos'
         servo2.write(90); 
         servo3.write(90); 
